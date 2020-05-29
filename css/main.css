@@ -1,0 +1,69 @@
+body{
+	background-color: powderblue;
+}
+.header{
+	background-color: grey;
+	color: orange;
+	margin: 0px;
+	padding: 1px;
+}
+.footer{
+	background-color: lightgrey;
+	margin-bottom: 0px;
+	padding: 1px; 
+}
+.fasm{
+	font-size: 24px;
+}
+.famd{
+	font-size: 32px;
+}
+.main{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	padding: 10px;
+}
+.addcontact{
+	text-align: right;
+	background-color: white;
+	border-radius: 50%;
+	padding: 5px;
+	margin-right: 100px;
+}
+.contactadd{
+	/*display: none;*/
+	margin-left: 400px;
+	margin-bottom: 100px;
+	padding: 20px; 
+	width: 500px;
+	background-color: lightgrey;
+}
+#addbutton{
+	background-color: green;
+	width: 60px;
+	height: 30px;
+	padding: 5px;
+	margin-right: 100px;
+	border-radius: 5px;
+}
+input{
+	width: 300px;
+	height: 30px;
+}
+button[type=submit]{
+	height: 35px;
+	width: 35px;
+}
+#backtohome{
+	width: 50px;
+	
+	border: none;
+	margin-right: 70px;
+}
+a{
+	color:black;
+	text-decoration: none;
+}
+p{
+	font-size: 20px;
+}

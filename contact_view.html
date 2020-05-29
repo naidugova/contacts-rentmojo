@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>View contacts</title>
+	<!-- Using internet served from the fontawesome -->
+	<!-- <script src="https://kit.fontawesome.com/4f48a28ea2.js" crossorigin="anonymous"></script> -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<!-- Local file will be as a backup when the above link fails-->
+	<script defer type="text/javascript" src="js/all.js"></script>
+
+	<script type="text/javascript" src="js/home.js"></script>
+	<script src="js/jquery-3.5.1.min.js"></script>
+	<!-- Links for css files -->
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="header">
+
+		<h1 id="title" align="center">RM-Phone app  <span class="fas fa-book"></span></h1>
+
+	</div>
+	<div class="main">
+		<div class="search">
+			<form method="POST">
+				<h3 align="center">Contacts</h3>
+				<table align="center">
+					<tr>
+						<td><input class="searchbar" type="text" name="searchtext"></td>
+						<td><button type="submit"><span class="fas fa-search"></span></button></td>
+					</tr>
+				</table>
+			</form>
+			
+		</div>
+		<div class="view">
+			
+		</div>
+		<div class="pagenation">
+			
+		</div>
+		<div align="right">
+			<a id="add"><span class="fas fa-plus famd addcontact"></span><a>
+		</div>
+	</div> 
+	<div class="contactadd">
+		<form>
+			<h2 align="center">
+				<button id="backtohome"><span class="fas fa-angle-double-left fasm"></span></button>Add Contact
+			</h2>
+			<table align="center">
+				<tr>
+					<td>
+						<label for="#name" class="fasm">Name :</label><br>
+						<input id="name" type="text" name="cname" placeholder="Enter contact name" required>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label for="#dob" class="fasm">Date of birth :</label><br>
+						<input id="dob" type="date" name="cdob" placeholder="Enter date of birth">
+					</td>
+				</tr>
+				<tr id="mobrow">
+					<td>
+						<label for="#mobnum" class="fasm">Mobile number :</label><br>
+						<input id="mobnum" type="number" name="cnumber" placeholder="Enter mobile number">
+						<a id="addnum"><span class="fas fa-plus addcontact"></span><a>
+					</td>
+				</tr>
+				<tr id="emailrow">
+					<td>
+						<label for="#email" class="fasm">Email :</label><br>
+						<input id="email" type="text" name="cemail" placeholder="Enter email address">
+						<a id="addemail"><span class="fas fa-plus addcontact"></span><a>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<button type="submit" id="addbutton">Add</button>
+					</td>
+				</tr>
+			</table>
+		</form>
+	</div>
+	<div class="footer">
+		<p>Find the github link of this project below :</p>
+
+		<a href="linksomehwere" id="git">
+			<span class="fas fa-hand-point-right fasm"></span>  <span class="fab fa-github famd"></span>
+		</a>
+	</div>
+
+</body>
+</html>
